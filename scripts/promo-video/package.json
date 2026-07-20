@@ -1,0 +1,12 @@
+{
+  "name": "wing-promo-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node render.mjs preview",
+    "render": "node render.mjs full"
+  },
+  "dependencies": {
+    "playwright-core": "^1.58.0"
+  }
+}
